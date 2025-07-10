@@ -9,14 +9,14 @@ export default [
             {
                 dir: 'dist',
                 format: 'cjs',
-                entryFileNames: '[name].cjs.js',
-                sourcemap: true
+                entryFileNames: '[name].cjs.js'
+                // sourcemap: true
             },
             {
                 dir: 'dist',
                 format: 'esm',
-                entryFileNames: '[name].esm.mjs',
-                sourcemap: true
+                entryFileNames: '[name].esm.mjs'
+                // sourcemap: true
             }
         ],
         plugins: [
